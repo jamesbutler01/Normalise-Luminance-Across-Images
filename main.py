@@ -1,8 +1,7 @@
-from PIL import Image
+from PIL import Image, ImageStat
 import glob
 import numpy as np
 import math
-from PIL import ImageStat
 
 path = 'C:\\folder'
 files = glob.glob(path+'/*.png')
